@@ -1,0 +1,53 @@
+.letsGo{
+    width: 100vw;
+    height: 55vh;
+    position: relative;
+}
+
+.goImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.goText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Lucida Sans;
+}
+
+.goText > h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.goText > p{
+    font-size: 18px;
+}
+
+.goBtn{
+    width: 10em;
+    height: 45px;
+    border: none;
+    background-color: #537895;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.goBtn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+
+}

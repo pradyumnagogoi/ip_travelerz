@@ -1,0 +1,149 @@
+.videoNav{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.homeCollection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 1px solid #eaeded;
+}
+
+.homeLocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    
+}
+
+.container{
+    width: 5vw;
+    height: 35vh;
+    position: relative;
+}
+
+.imgCollection{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 25vw;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.imgCollection:hover+ .overlay{
+    opacity: 1;
+}
+
+.homeLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Century Gothic;
+}
+
+.homeLink>a{
+    text-decoration: none;
+    color: black;
+}
+
+.imgExtra{
+    width: 100%;
+    height: 45vh;
+    object-fit: contain;
+}
+
+.homeLink:hover{
+    transform: scale(1.2);
+}
+
+.discoverSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    width: 100vw;
+    height: 50vh;
+    font-family: Century Gothic;
+    border-bottom: 1px solid #eaeded;
+}
+
+.discoverMenu{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    justify-content: space-around;
+    height: 60%;
+}
+
+.discoverSubMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #537895;
+    border-bottom: 2px solid #537895;
+}
+
+.SubNav{
+    cursor: pointer;
+}
+
+.SubNav:hover{
+    color: yellowgreen;
+}
+
+.discoverHead{
+    font-size: 35px;   
+    font-weight: 300;
+}
+
+.discoverBtn{
+    width: 10em;
+    height: 5vh;
+    font-size: 18px;
+    background-color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+}
+
+
+.discoverBtn> a{
+    text-decoration: none;
+    
+}
+
+.discoverBtn:hover{
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
